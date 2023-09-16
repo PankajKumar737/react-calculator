@@ -27,7 +27,7 @@ function Calc() {
                         setSuccess("")
                         return; 
                     }
-                setCount(num1+num2)
+                setCount(parseInt(num1)+parseInt(num2))
                 setError("")
                 setSuccess("Sucess")
                 return ;
